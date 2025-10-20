@@ -1,6 +1,7 @@
 body {
-    background-image: url("midna.jpg");
+    background-image: url("midna-bos.jpg");
     background-size: cover;
+    background-position: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
@@ -11,22 +12,25 @@ body {
     /* width: 700px;
     height: 500px; */
     margin: auto;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 0px 0px 5px white;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 20px;
+    text-shadow: 0px 0px 5px white;
 }
+    
 
 p {
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 5px white;
 }
 
 button {
